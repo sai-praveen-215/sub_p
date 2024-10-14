@@ -1,4 +1,4 @@
-import thank_You from "../../../../multi-step-form-main/assets/images/icon-thank-you.svg";
+import thank_You from "../../public/images/icon-thank-you.svg";
 
 export default function Step5() {
   return (

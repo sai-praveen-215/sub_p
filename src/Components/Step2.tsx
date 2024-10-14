@@ -1,8 +1,8 @@
 import { Switch } from "antd";
 import { useEffect, useState } from "react";
-import arcade from "../../../../multi-step-form-main/assets/images/icon-arcade.svg";
-import advacnced from "../../../../multi-step-form-main/assets/images/icon-advanced.svg";
-import pro from "../../../../multi-step-form-main/assets/images/icon-pro.svg";
+import arcade from "../../public/images/icon-arcade.svg";
+import advacnced from "../../public/images/icon-advanced.svg";
+import pro from "../../public/images/icon-pro.svg";
 
 function Step2(props: any) {
   const { data, setData, steps, setSteps } = props;

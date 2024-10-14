@@ -1,5 +1,5 @@
 import "./App.css";
-import img1 from "../../../multi-step-form-main/assets/images/bg-sidebar-desktop.svg";
+// import img1 from "../../sub_p/public/images/bg-sidebar-desktop.svg";
 import { useState } from "react";
 import Step2 from "./Components/Step2";
 import Step1 from "./Components/Step1";
@@ -33,14 +33,11 @@ function App() {
         }}
       >
         <div
+          className="back"
           style={{
             height: "100%",
             width: "300px",
             borderRadius: "30px",
-            backgroundImage: `url(${img1})`,
-            backgroundSize: "cover",
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: "center",
             display: "flex",
             alignItems: "flex-start",
             flexDirection: "column",
